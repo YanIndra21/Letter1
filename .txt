@@ -1,0 +1,60 @@
+body{
+  background-image: url(images/kertas.png);
+  transform:translateX(50px);
+  background-size: 500px;
+  background-repeat: no-repeat;
+    background-color: rgb(245, 245, 245);
+}
+.Header{
+    position: relative;
+    text-align: center;
+    size: 30%;
+}
+.k1{
+    align-content: left;
+    font-weight: normal;
+    font-size: medium;
+}
+.u1{
+    font-style: italic;
+}
+.u2{
+    font-style: italic;
+}
+.u3{
+    font-style: italic;
+}
+.u4{
+    font-style: italic;
+}
+.ip1{
+    text-align: justify;
+    text-indent: 50px;
+}
+.ip2{
+    text-align: justify;
+    text-indent: 50px;
+}
+.ip3{
+    text-align: justify;
+    text-indent: 50px;
+}
+.ip4{
+    text-align: justify;
+    text-indent: 50px;
+}
+.penutup{
+    text-align: right;
+    font-style: oblique;
+    font-weight: bold;
+}
+@media screen and (max-width: 480px) {
+    #maincontent{
+        width: auto;
+        float: none;
+    }
+    #sidebar{
+        width: auto;
+        float: none;
+    }
+}

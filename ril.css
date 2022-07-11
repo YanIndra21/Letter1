@@ -1,0 +1,48 @@
+@media screen and (max-width: 480px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+      background-color: rgb(245, 245, 245);
+    }
+    .Header{
+        height: 200px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+    .Header img{
+        margin: 15px;
+        width: 220px;
+        height: 220px;
+    }
+    .isi{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        text-align: center;
+        background-image: url(images/kertas.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .isi h4{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .isi p{
+        margin-top: 20px;
+        letter-spacing: 2px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .penutup{
+        float: right;
+        padding-bottom: 100px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: italic;
+        font-size: 14px;
+    }
+}
